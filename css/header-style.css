@@ -1,0 +1,164 @@
+
+<style>
+	
+
+	.containerheader{
+		position: relative;
+	}
+	.navbar{
+		width: 100%;
+		max-width: 1600px;
+		position: fixed;
+		background: rgba(255, 255, 255, 0.5); 
+		left: 0; 
+		right: 0; 
+		margin-left: auto; 
+		margin-right: auto;
+		z-index: 20; 
+		
+	}
+	/*nav*/
+
+	.main-nav{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 60px;
+		position: relative;
+
+
+	}
+	.main-menu{
+		margin-top: 40px;
+		margin-bottom: 20px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+	.main-nav .logo{
+		width: 120px;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-50%);
+	}
+	.main-nav ul{
+		font-size: 18px;
+		font-weight: bold;
+		font-family: 'Playfair Display', serif;
+		text-align: right;
+		
+	}
+	.main-nav ul li{
+		padding: 0 30px;
+		float: none;
+		display: inline-block;
+	}
+	.main-nav ul li:nth-child(1),
+	.main-nav ul li:nth-child(2),
+	.main-nav ul li:nth-child(3){
+		float: left;
+	}
+	.main-nav ul li a{
+		padding: 2px;
+
+
+	}
+	.main-nav ul li a:after{
+    content: '';
+    display: block;
+    height: 2px;
+    background:  #16d5cc;
+    transform: scaleX(0);
+    transition: transform .3s;
+	}
+
+	.main-nav ul li a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+	}
+		
+
+	.main-nav ul.main-menu{
+		flex: 1;
+	}
+	.sticky .main-menu{
+		margin-top: 10px;
+	}
+	.sticky .logo{
+		width: 55px;
+	}
+	
+	.slideshowContainer {
+  position: relative;
+  overflow: hidden;
+  margin:  0;
+  width: 100%;
+  height: 750px;
+}
+
+.imageSlides {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  height: 120%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+/* add 'visible' class via Javascript */
+.visible {
+  opacity: 1;
+}
+
+.slideshowArrow {
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.slideshowArrow:hover {
+  opacity: 0.75;
+}
+
+#leftArrow {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rightArrow {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.slideshowCircles {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: 1s ease-in-out;
+}
+
+.dot {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid 2px rgba(255, 255, 255, 0.5);
+}
+</style>

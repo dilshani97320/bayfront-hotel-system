@@ -9,7 +9,7 @@
 <body>
 		   <section></section>
 <footer class="footer-distributed">
-
+<!-- <img src="img/footer.jpg" alt=""> -->
             <div class="footer-left">
 			<img src="img/logo.png" alt="logo" class="footer-logo">
 
@@ -49,14 +49,19 @@
 
             <div class="footer-right">
 
-                <p class="footer-company-about">
-                    <span>About the company</span>
-                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                </p>
-
+                <span>Social :</span>
                 <div class="footer-icons">
-
+                   
                     <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+
+                </div>
+                <span>Find us also :</span>
+                <div class="footer-icons">
+                   
+                    <a href="#"><i class="fa fa-tripadvisor"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-youtube-play"></i></a>

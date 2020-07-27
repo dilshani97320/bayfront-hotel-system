@@ -8,33 +8,16 @@
 </head>
 <body>
 	<div class="containerheader">
-		<div class="navbar">
-		
-		<!-- nav bar -->
-			<nav class="main-nav">
-				
-				<div class="logo">
-					<a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
-				</div>
-				
-				<ul class="main-menu">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="#">Room & Lifestyle</a></li>
-					<li><a href="#">Dining</a></li>
-					<li><a href="#">Surf</a></li>
-					<li><a href="#">Activities</a></li>
-					<li><a href="#">Login/Signup</a></li>
-				</ul>
-			</nav>
-		</div>
+		<?php include("common/header_navbar.php"); ?>
 
 		<div class="slideshowContainer">
   
 			<!-- Replace the image 'src' with the images in your project.
 			Javascript is set up so that you can add as many images as you like, but make sure that you match the number of 'circle' span elements (below) to the number of images -->
-			<img class="imageSlides" src="img/act-slide1.png" alt="beach side city view">
-			<img class="imageSlides" src="img/act-slide2.jpg" alt="leaf on the ground">
-			<img class="imageSlides" src="img/act-slide3.jpg" alt="lake surrounded by mountains">
+			<img class="imageSlides" src="img/room-slide1.jpg" alt="beach side city view">
+			<img class="imageSlides" src="img/home-slide2.jpg" alt="beach side city view">
+			<img class="imageSlides" src="img/room-slide3.jpg" alt="beach side city view">
+			
 			  
 			<!-- I would recommend to replace these 'span' elements with 'img' files
 			for each the left and right arrow that fits your project, and size accordingly.
@@ -57,7 +40,7 @@
 <script type="text/javascript">
 	window.addEventListener("scroll",function () {
 		const navbar= document.querySelector(".navbar");
-		// console.log(navbar);
+		console.log(navbar);
 		navbar.classList.toggle("sticky", window.scrollY>0);
 	})
 

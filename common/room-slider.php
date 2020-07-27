@@ -14,7 +14,8 @@
 	grid-template-rows: repeat(5, 1fr);
 	align-items: center;
 	justify-content: center;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
 }
 
 .room-details {
@@ -25,7 +26,9 @@
 	z-index: 5;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.room-details h1{
+	text-align: left;
+}
 .room-details button{
 	padding: 10px;
 	margin-top: 5px;
@@ -67,6 +70,14 @@
 	width: 650px;
 	height: 530px;
 }
+.bttn{
+	float: right;
+	display: flex;
+	margin-left: auto;	
+
+	width: 100%;
+
+}
 
 </style>
 <body>
@@ -81,8 +92,10 @@
 				<i class="fa fa-coffee" aria-hidden="true"></i>
 				<i class="fa fa-car" aria-hidden="true"></i>
 			<br>
-			<button>Book now</button>
-			<button>view room</button>
+			<div class="bttn">
+			<?php include("common/button2.php"); ?>
+			<?php include("common/button3.php"); ?>
+		</div>
 			
 		</div>
 		<div class="room-img">

@@ -9,13 +9,14 @@
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
+     margin-bottom: 40px;
 }
 
  .card{
     max-width: 300px;
      min-height: 300px;
-     background: #fff;
-     padding: 30px;
+     /*background: #fff;*/
+     padding: 20px;
      box-sizing: border-box;
      color: black;
      margin:40px;
@@ -33,19 +34,30 @@
      letter-spacing: 0.5px;
      line-height: 1.5;
 }
- .card-btn{
-    padding: 10px;
-	background-color: #fff;
-	border: 1px solid #262626;
-	letter-spacing: 1px;
+
+.button {
+    background-color: #fff;
+    border: 2px solid #262626;
+    color: #262626;
+    font-weight: 400px;
+    padding: 3px;
+    text-align: center;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 2px;
     cursor: pointer;
-    margin: 20px 0;
-    width: 150px;
+    width: 180px;
+        
 }
 
+.button span{
+    font-size: 20px;
 
+}
 
 .container{
   width: 100%;
@@ -63,6 +75,12 @@
     padding-top: 30px;
     position: relative;
 }
+.slideshowArrow {
+  font-size: 7em;
+  color: rgba(105, 105, 105, 0.5);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
 
 </style>
 <body>
@@ -70,17 +88,17 @@
 		<div class="card">
 			<img src="img/surf1.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			<button class="card-btn">FIND OUT MORE</button>
+			<?php include("common/button.php"); ?>
 		</div>
 		<div class="card">
 			<img src="img/surf2.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			<button class="card-btn">FIND OUT MORE</button>
+			<?php include("common/button.php"); ?>
 		</div>
 		<div class="card">
 			<img src="img/surf3.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			<button class="card-btn">FIND OUT MORE</button>
+           <?php include("common/button.php"); ?>
 		</div>
 </div>
 </body>

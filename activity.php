@@ -22,7 +22,7 @@
 		max-width:550px;
 		min-height: 500px;
 		margin:5px 30px;
-		background:#fff;
+		/*background:#fff;*/
 		text-align:center;
 		cursor:pointer;
 	}
@@ -71,7 +71,7 @@
 
 </style>
 <body>
-	<?php include("common/header-activity.php"); ?>
+	<?php include("common/header_activity.php"); ?>
 
 <div class="blog-wrapper">
 	<div class="blog-card">
@@ -84,7 +84,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 	<div class="blog-card">
@@ -97,7 +97,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 </div>
@@ -113,7 +113,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 	<div class="blog-card">
@@ -126,7 +126,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 </div>
@@ -142,7 +142,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 	<div class="blog-card">
@@ -155,7 +155,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
 		<div class="read-more">
-			<button>Find out more</button>
+			<?php include("common/button.php"); ?>
 		</div>
 	</div>
 </div>		

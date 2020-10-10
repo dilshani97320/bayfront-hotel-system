@@ -35,7 +35,7 @@
   
 		</div>
 	</div>
-
+<?php include("common/booking-form.php"); ?>
 
 <script type="text/javascript">
 	window.addEventListener("scroll",function () {

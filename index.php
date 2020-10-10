@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="icon" type="image/png" href="img/logo.png"/>
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
 <!-- <link rel="icon" type="image/png" href="https://example.com/favicon.png"/> -->
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/header-style.css">
@@ -133,25 +133,22 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .activity-img{
 	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
 }
 
-.activity-container .spa img{
-	width: 50%;
-	height: 320px;
-	border: 1PX solid #fff;
-	float: left;
-	transition: all 0.5s;
-	transform: scale(1);
-
+.activity-container .spa img, .activity-container .dining img{
+	width: 100%;
+	height: 300px;
 	object-fit: cover;
 }
 
-.activity-container .spa img:hover {
+/*.activity-container .spa img:hover {
     transform: scale(1.1);
-}
+}*/
 
 
-.activity-container .dining img{
+/*.activity-container .dining img{
 	width: 50%;
 	height: 320px;
 	float: left;
@@ -160,11 +157,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	object-fit: cover;
 
 }
-
-.activity-container .dining img:hover {
+*/
+/*.activity-container .dining img:hover {
     transform: scale(1.5);
 }
-
+*/
 /*second row*/
 .activity2-container{
 	/*border:3px solid #c19b76;*/
@@ -284,13 +281,14 @@ figure.imgBlock {
   position: relative;
   overflow: hidden;
   margin: 15px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 300px;
+  max-width: 350px;
   width: 100%;
   color: #ffffff;
   text-align: center;
   font-size: 16px;
   background-color: #000000;
+
 }
 figure.imgBlock *,
 figure.imgBlock *:before,
@@ -401,6 +399,7 @@ figure.imgBlock.hover .title:after {
   transition-delay: 0.15s;
 }
 
+
 </style>
 <body>
 	 <?php include("common/header-home.php"); ?>
@@ -410,15 +409,32 @@ figure.imgBlock.hover .title:after {
 	 <div class="activity-container">
 		<div class="act spa">
 			<div class="activity-img">
-				<img src="img/yoga1.jpg" alt="">
-				<img src="img/yoga2.png" alt="">
+				<figure class="imgBlock"><img src="img/yoga1.jpg" alt="sample35" />
+  					<div class="title">
+    					<div>
+					      <h4>Spa</h4>
+					      <!-- <h6>Hikkaduwa</h6> -->
+					    </div>
+					</div>
+				</figure>
+				<figure class="imgBlock"><img src="img/yoga2.png" alt="sample35" />
+  					<div class="title">
+    					<div>
+					      <h4>Yoga</h4>
+					      <!-- <h6>Hikkaduwa</h6> -->
+					    </div>
+					</div>
+				</figure>
+				<!-- <img src="img/yoga1.jpg" alt=""> -->
+				<!-- <img src="img/yoga2.png" alt=""> -->
 			</div>
 			<br>
 			<div>
 				<h1>SPA & YOGA</h1>
 				<hr class="line-style"><br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem, numquam, eligendi veniam dignissimos sunt. Repellendus, cum perspiciatis impedit, cumque debitis vero odit quas commodi aspernatur blanditiis, voluptatibus illum ipsum. ipsum dolor sit amet, consectetur adipisicing elit..</p>
-			<?php include("common/button.php"); ?>
+			  <a class="btn" href="landing.php?article=0">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
 			</div>
 		</div>
 		<div class="act dining">
@@ -426,13 +442,27 @@ figure.imgBlock.hover .title:after {
 				<h1>DINING</h1>
 				<hr class="line-style"><br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore vero natus, esse dolores id sit beatae repudiandae? Ea molestias quo similique accusamus minima est explicabo commodi, praesentium temporibus dolore cumque. ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quas quasi nulla aut blanditiis, minima omnis molestiae! Necessitatibus, adipisci nam id quis natus, adipisci nam id quis natusadipisci nam id quis natus, adipisci nam id quis natus.</p>
-			<?php include("common/button.php"); ?>
+			  <a class="btn" href="#">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
 			</div>
 			<br>
 			<div class="activity-img">
-				
-			<img src="img/dining1.jpg" alt="">
-			<img src="img/dining2.jpg" alt="">
+			<figure class="imgBlock"><img src="img/dining1.jpg" alt="sample35" />
+  					<div class="title">
+    					<div>
+					      <h4>Traditional Food</h4>
+					      <!-- <h6>Hikkaduwa</h6>/ -->
+					    </div>
+					</div>
+				</figure>
+				<figure class="imgBlock"><img src="img/dining2.jpg" alt="sample35" />
+  					<div class="title">
+    					<div>
+					      <h4>Western Food</h4>
+					      <!-- <h6>Hikkaduwa</h6> -->
+					    </div>
+					</div>
+				</figure>
 			</div>
 		</div>
 	</div>
@@ -443,7 +473,8 @@ figure.imgBlock.hover .title:after {
 			<h1>EXPERIENCE <br>BAYFRONT WELIGAMA</h1>
 			<hr class="line-style"><br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad modi recusandae sint reiciendis officia libero, nostrum enim numquam amet velit! Inventore autem consequuntur expedita facere laborum repudiandae facilis quidem voluptates impedit unde nulla explicabo atque, consequatur. Sit culpa aliquam quo.</p>	
-			<?php include("common/button.php"); ?>
+			  <a class="btn" href="#">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
 		</dev>
 
 		<div class="activity2-img">
@@ -455,7 +486,7 @@ figure.imgBlock.hover .title:after {
 					      <h6>Hikkaduwa</h6>
 					    </div>
 					</div>
- 					<a href="#"></a>
+					<a href="landing.php?article=7"></a>
 				</figure>
 			</div>
 			<div class="img2">
@@ -466,7 +497,7 @@ figure.imgBlock.hover .title:after {
 					      <h6>Upper Country</h6>
 					    </div>
 					</div>
- 					<a href="#"></a>
+					<a href="landing.php?article=9"></a>
 				</figure>
 				
 			</div>
@@ -474,11 +505,11 @@ figure.imgBlock.hover .title:after {
 				<figure class="imgBlock"><img src="img/act3.jpg" alt="" class="img1">
   					<div class="title">
     					<div>
-					      <h4>Surfing</h4>
-					      <h6>Weligama</h6>
+					      <h4>Train Ride</h4>
+					      <h6>Ella</h6>
 					    </div>
 					</div>
- 					<a href="#"></a>
+ 					<a href="landing.php?article=8"></a>
 				</figure>
 				
 			</div>
@@ -490,18 +521,18 @@ figure.imgBlock.hover .title:after {
 					      <h6>Mirissa</h6>
 					    </div>
 					</div>
- 					<a href="#"></a>
+ 					<a href="landing.php?article=6"></a>
 				</figure>
 			</div>
 			<div class="img5">
 				<figure class="imgBlock"><img src="img/act5.jpg" alt="" class="img1">
   					<div class="title">
     					<div>
-					      <h4>swinging on a rope</h4>
+					      <h4>Swinging On a Rope</h4>
 					      <h6>Thalpe</h6>
 					    </div>
 					</div>
- 					<a href="#"></a>
+ 					<a href="landing.php?article=10"></a>
 				</figure>
 				
 			</div>

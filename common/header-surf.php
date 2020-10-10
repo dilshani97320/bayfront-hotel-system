@@ -14,7 +14,7 @@
   
 			<!-- Replace the image 'src' with the images in your project.
 			Javascript is set up so that you can add as many images as you like, but make sure that you match the number of 'circle' span elements (below) to the number of images -->
-			<img class="imageSlides" src="img/surf-slide1.jpg" alt="beach side city view">
+			<img class="imageSlides" src="img/surf-slide1.png" alt="beach side city view">
 			<img class="imageSlides" src="img/surf-slide2.jpg" alt="leaf on the ground">
 			<img class="imageSlides" src="img/surf-slide3.jpg" alt="lake surrounded by mountains">
 			  
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-
+<?php include("common/booking-form.php"); ?>
 <script type="text/javascript">
 	window.addEventListener("scroll",function () {
 		const navbar= document.querySelector(".navbar");

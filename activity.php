@@ -33,8 +33,9 @@
 }
 .card-img img{
 
-	max-height:350px;
+	height:350px;
 	width:100%;
+	object-fit: cover;
 
 }
 		
@@ -83,9 +84,9 @@
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			<div class="read-more">
+			<a href="landing.php?article=11">Read more</a>
+			</div>
 	</div>
 	<div class="blog-card">
 		<div class="card-img">
@@ -96,9 +97,9 @@
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			<div class="read-more">
+			<a  class="btn" href="landing.php?article=1">Read more</a>
+			</div>
 	</div>
 </div>
 		<br>
@@ -108,13 +109,15 @@
 			<img src="img/post3.jpg">
 			
 		</div>
-		<div class="card-details"><h1>WHITE WATER RAFTING</h1></div>
+		<div class="card-details"><h1>>White Water Rafting in Kitulgala, Sri Lanka</h1></div>
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			
+			<div class="read-more">
+			<a href="landing.php?article=2">Read more</a>
+			</div>
+		
 	</div>
 	<div class="blog-card">
 		<div class="card-img">
@@ -125,9 +128,9 @@
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			<div class="read-more">
+			<a href="landing.php?article=4">Read more</a>
+			</div>
 	</div>
 </div>
 	<br>
@@ -141,22 +144,22 @@
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas assumenda, culpa doloribus corporis, quaerat illum nobis aliquid consequuntur nesciunt! Perferendis? ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			<div class="read-more">
+			<a href="landing.php?article=5">Read more</a>
+			</div>
 	</div>
 	<div class="blog-card">
 		<div class="card-img">
-			<img src="img/post6.jpg">
+			<img src="img/post7.jpg">
 			
 		</div>
-		<div class="card-details"><h1>Whale Watching </h1></div>
+		<div class="card-details"><h1>Blue whale watching in Sri Lanka</h1></div>
 		<div class="card-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolorem corporis, neque reprehenderit dolorum alias aliquid perferendis eveniet totam repellendus! ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum praepositum quam bonum.</p>
 		</div>
-		<div class="read-more">
-			<?php include("common/button.php"); ?>
-		</div>
+			<div class="read-more">
+			<a href="landing.php?article=6">Read more</a>
+			</div>
 	</div>
 </div>		
 	<?php include("common/footer.php"); ?>

@@ -12,22 +12,29 @@
 .footer-logo{
 	width: 120px;
 	height: 140px;
+        margin-left: 50px;
 }
 .footer-distributed{
-    background-color: black;
+    /*background-color: black;*/
+    background-image: url("../img/footer.jpg");
+
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 55px 50px;
+    padding: 50px 0;
 }
-
+.footer-container{
+    width: 1400px;
+    margin: auto;
+}
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
     display: inline-block;
     vertical-align: top;
+
 }
 
 /* Footer left */

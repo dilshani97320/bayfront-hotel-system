@@ -96,7 +96,10 @@
     font-size: 35px;
     text-align: center;
 }
-.part p{
+.part ul{
+  margin-top: 40px;
+}
+.part ul li{
     text-align: left;
     color: #858585;
     letter-spacing: 1px;
@@ -261,8 +264,18 @@ figure.imgBlock.hover .title:after {
 		
 		<div class="part">
 		
-			<h3>TOP SURF LESSONS</h3><hr class="line-style"><br>
-			<p class="p1">&#10004; 2 hour lesson <br>&#10004; Surfboard with fins, wax <br>&#10004; Free use of rashguard <br>&#10004; Beach theory lesson including safety briefing <br>&#10004; Transportation included (within Weligama – from main point to jungle beach) <br>&#10004; Experienced ISA Qualified surf coach with good english skills <br>&#10004; Lesson following our own surf methodology <br>&#10004; Coconut Water after the lesson <br>&#10004; Shower, changing room and other facilities </p>
+			<h3>TOP SURF LESSONS</h3><hr class="line-style">
+      <ul class="p1">
+        <li>&#10004; 2 hour lesson </li>
+        <li>&#10004; Surfboard with fins, wax</li>
+        <li>&#10004; Free use of rashguard </li>
+        <li>&#10004; Beach theory lesson including safety briefing </li>
+        <li>&#10004; Transportation included (within Weligama – from main point to jungle beach) </li>
+        <li>&#10004; Experienced ISA Qualified surf coach with good english skills </li>
+        <li>&#10004; Lesson following our own surf methodology </li>
+        <li>&#10004; Coconut Water after the lesson</li>
+        <li>&#10004; Shower, changing room and other facilities </li>
+      </ul>
 		</div>
 
 		<div class="part pack1">
@@ -273,7 +286,7 @@ figure.imgBlock.hover .title:after {
 					      <h5>Book now</h5>
 					    </div>
 					</div>
- 					<a href="#"></a>
+ 					<a href="landing2.php?article=4"></a>
 				</figure>
 			<!-- 
 			<h3>Sample topic</h3>
@@ -288,7 +301,7 @@ figure.imgBlock.hover .title:after {
 					      <h5>book now</h5>
 					    </div>
 					</div>
- 					<a href="#"></a>
+ 					<a href="landing2.php?article=5"></a>
 				</figure>
 			<!-- 
 			<h3>Sample topic</h3>

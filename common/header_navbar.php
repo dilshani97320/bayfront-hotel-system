@@ -12,6 +12,7 @@
 				
 				<div class="logo">
 					<a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+					<P>	BAY FRONT</P>
 				</div>
 				
 				<ul class="main-menu">

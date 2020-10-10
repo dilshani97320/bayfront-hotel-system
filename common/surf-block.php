@@ -88,17 +88,28 @@
 		<div class="card">
 			<img src="img/surf1.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			<?php include("common/button.php"); ?>
+
+            <div class="read-more">
+                <a class="btn" href="landing2.php?article=1">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+			  
+
 		</div>
 		<div class="card">
 			<img src="img/surf2.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-			<?php include("common/button.php"); ?>
+			 <div class="read-more">
+                <a class="btn" href="landing2.php?article=2">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+
 		</div>
 		<div class="card">
 			<img src="img/surf3.png" alt="">
 			<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-           <?php include("common/button.php"); ?>
+            <div class="read-more">
+                <a class="btn" href="landing2.php?article=3">FIND OUT MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+
 		</div>
 </div>
 </body>

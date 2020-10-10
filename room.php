@@ -126,8 +126,8 @@
 				<h2>LKR 7500.00</h2>
 			</div>
 		<div class="bttn">
-			<?php include("common/button2.php"); ?>
-			<?php include("common/button3.php"); ?>
+			  <a class="btn" href="#">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			  <a class="btn" href="#">BOOK NOW <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 		</div>
 	    </div>
 	</div>
@@ -151,8 +151,8 @@
 				<h2>LKR 7500.00</h2>
 			</div>
 		<div class="bttn">
-			<?php include("common/button2.php"); ?>
-			<?php include("common/button3.php"); ?>
+			 <a class="btn" href="#">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			  <a class="btn" href="#">BOOK NOW <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 		</div>
 	    </div>
 	</div>
@@ -176,8 +176,8 @@
 				<h2>LKR 7500.00</h2>
 			</div>
 		<div class="bttn">
-			<?php include("common/button2.php"); ?>
-			<?php include("common/button3.php"); ?>
+			 <a class="btn" href="#">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			  <a class="btn" href="#">BOOK NOW <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 		</div>
 	    </div>
 	</div>
@@ -201,8 +201,8 @@
 				<h2>LKR 7500.00</h2>
 			</div>
 		<div class="bttn">
-			<?php include("common/button2.php"); ?>
-			<?php include("common/button3.php"); ?>
+			 <a class="btn" href="#">VIEW MORE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			  <a class="btn" href="#">BOOK NOW <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 		</div>
 	    </div>
 	</div>
